@@ -1,10 +1,6 @@
-
+import Profile from "./pages/profile/Profile"
 function App() {
-  return (
-    <div className="App">
-      Hello World
-    </div>
-  );
+  return <Profile/>
 }
 
 export default App;
