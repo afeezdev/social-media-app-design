@@ -1,4 +1,4 @@
-import "./sidebar.scss";
+import "./sidebar.css";
 import {
   RssFeed,
   Chat,
@@ -57,11 +57,6 @@ export default function Sidebar() {
         </ul>
         <button className="sidebarButton">Show More</button>
         <hr className="sidebarHr" />
-        <ul className="sidebarFriendList">
-          <li className="">
-
-          </li>
-        </ul>
         <ul className="sidebarFriendList">
           {Users.map((u) => (
             <CloseFriend key={u.id} user={u} />

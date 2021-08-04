@@ -1,11 +1,11 @@
-import "./topbar.scss";
+import "./topbar.css";
 import { Search, Person, Chat, Notifications } from "@material-ui/icons";
 
 export default function Topbar() {
   return (
     <div className="topbarContainer">
       <div className="topbarLeft">
-        <span className="logo">afeezdevSocial</span>
+        <span className="logo">Lamasocial</span>
       </div>
       <div className="topbarCenter">
         <div className="searchbar">
